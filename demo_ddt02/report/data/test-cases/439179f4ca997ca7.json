@@ -1,0 +1,110 @@
+{
+  "uid" : "439179f4ca997ca7",
+  "name" : "test_04",
+  "fullName" : "test_order_depandency.test_Dep#test_04",
+  "historyId" : "99bbf91b0511152ea439d8c64dda3d75",
+  "time" : {
+    "start" : 1551342398944,
+    "stop" : 1551342398944,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342398933,
+      "stop" : 1551342398934,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b9994fde6c63e3f7",
+      "name" : "log",
+      "source" : "b9994fde6c63e3f7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "17f611d99340a5cd",
+      "name" : "stdout",
+      "source" : "17f611d99340a5cd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ff80bc6892ca4247",
+      "name" : "stderr",
+      "source" : "ff80bc6892ca4247.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342398944,
+      "stop" : 1551342398944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_order_depandency"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_Dep"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_order_depandency"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "439179f4ca997ca7.json",
+  "parameterValues" : [ ]
+}

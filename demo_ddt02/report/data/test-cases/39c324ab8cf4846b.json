@@ -1,0 +1,95 @@
+{
+  "uid" : "39c324ab8cf4846b",
+  "name" : "test_one[1]",
+  "fullName" : "test_param#test_one[1]",
+  "historyId" : "3474c05b8237e75b554df563100d06ce",
+  "time" : {
+    "start" : 1551342398949,
+    "stop" : 1551342398949,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1551342398949,
+      "stop" : 1551342398949,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e11f50131c85df55",
+      "name" : "log",
+      "source" : "e11f50131c85df55.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ff9463b3d2230853",
+      "name" : "stdout",
+      "source" : "ff9463b3d2230853.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "592db8f484d9e427",
+      "name" : "stderr",
+      "source" : "592db8f484d9e427.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_param"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_param"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39c324ab8cf4846b.json",
+  "parameterValues" : [ "1" ]
+}

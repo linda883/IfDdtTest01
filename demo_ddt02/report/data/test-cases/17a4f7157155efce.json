@@ -1,0 +1,92 @@
+{
+  "uid" : "17a4f7157155efce",
+  "name" : "test_s6",
+  "fullName" : "test_fixture_c2#test_s6",
+  "historyId" : "d12f867c6da42e89367a14e4474e0aa8",
+  "time" : {
+    "start" : 1551342398871,
+    "stop" : 1551342398871,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1551342398871,
+      "stop" : 1551342398871,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa0a8341411a3d97",
+      "name" : "log",
+      "source" : "fa0a8341411a3d97.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ac5c3a1804753650",
+      "name" : "stdout",
+      "source" : "ac5c3a1804753650.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e9b16810e9f2bec7",
+      "name" : "stderr",
+      "source" : "e9b16810e9f2bec7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_c2"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_c2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17a4f7157155efce.json",
+  "parameterValues" : [ ]
+}

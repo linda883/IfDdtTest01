@@ -1,0 +1,121 @@
+{
+  "uid" : "dec35f76296dba6",
+  "name" : "test_01",
+  "fullName" : "test_order_depandency.test_Dep#test_01",
+  "historyId" : "3407ff1193e58045977012485878f85d",
+  "time" : {
+    "start" : 1551342395570,
+    "stop" : 1551342395570,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 4 != 1",
+  "statusTrace" : "self = <demo_ddt02.test_order_depandency.test_Dep testMethod=test_01>\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.dependency\n    def test_01(self):\n        print('test01')\n>       self.assertEqual(4, 1)\nE       AssertionError: 4 != 1\n\ntest_order_depandency.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342395569,
+      "stop" : 1551342395569,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 4 != 1",
+    "statusTrace" : "self = <demo_ddt02.test_order_depandency.test_Dep testMethod=test_01>\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.dependency\n    def test_01(self):\n        print('test01')\n>       self.assertEqual(4, 1)\nE       AssertionError: 4 != 1\n\ntest_order_depandency.py:9: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b2f2b60ac5f43df",
+      "name" : "log",
+      "source" : "8b2f2b60ac5f43df.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5228b0e2f6abb4af",
+      "name" : "stdout",
+      "source" : "5228b0e2f6abb4af.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "83315fdbcd331cd8",
+      "name" : "stderr",
+      "source" : "83315fdbcd331cd8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342395572,
+      "stop" : 1551342395572,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "dependency"
+  }, {
+    "name" : "suite",
+    "value" : "test_order_depandency"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_Dep"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_order_depandency"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "dependency" ]
+  },
+  "source" : "dec35f76296dba6.json",
+  "parameterValues" : [ ]
+}

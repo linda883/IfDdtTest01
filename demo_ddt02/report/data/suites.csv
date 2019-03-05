@@ -1,0 +1,146 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_class","","","","test_w_one",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c","","","","test_s3",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_web_1","","","","test_s8",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_fixture_cy","","","","test_s8",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_order","","","","test_03",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_order_depandency","test_Dep","","","test_04",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface05_2","Built-in immutable sequence.
+
+If no argument is given, the constructor returns an empty tuple.
+If iterable is specified the tuple is initialized from iterable's items.
+
+If the argument is a tuple, the return value is the same object."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_param","","","","test_one[3]",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","testInterface03_2__2__3_","Built-in immutable sequence.
+
+If no argument is given, the constructor returns an empty tuple.
+If iterable is specified the tuple is initialized from iterable's items.
+
+If the argument is a tuple, the return value is the same object."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fix_param1","","","","test_one[3]",""
+"failed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_order_depandency","test_Dep","","","test_01",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_cy","","","","test_s9",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_param","","","","test_one[2]",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","test_Ddt01","TestDdt","","","test_Interface01_2_你","str(object='') -> str
+str(bytes_or_buffer[, encoding[, errors]]) -> str
+
+Create a new string object from the given object. If encoding or
+errors is specified, then the object must expose a data buffer
+that will be decoded using the given encoding and error handler.
+Otherwise, returns the result of object.__str__() (if defined)
+or repr(object).
+encoding defaults to sys.getdefaultencoding().
+errors defaults to 'strict'."
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface04_3__4__5_","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface05_1","Built-in immutable sequence.
+
+If no argument is given, the constructor returns an empty tuple.
+If iterable is specified the tuple is initialized from iterable's items.
+
+If the argument is a tuple, the return value is the same object."
+"failed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface02_2__1_","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface04_2__3__4_","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c2","","","","test_s6",""
+"failed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_param_except","","","","test_eval[7*5-30]",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","test_Ddt01","TestDdt","","","test_show_value_1","dict() -> new empty dictionary
+dict(mapping) -> new dictionary initialized from a mapping object's
+    (key, value) pairs
+dict(iterable) -> new dictionary initialized as if via:
+    d = {}
+    for k, v in iterable:
+        d[k] = v
+dict(**kwargs) -> new dictionary initialized with the name=value pairs
+    in the keyword argument list.  For example:  dict(one=1, two=2)"
+"failed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface01_3_我","str(object='') -> str
+str(bytes_or_buffer[, encoding[, errors]]) -> str
+
+Create a new string object from the given object. If encoding or
+errors is specified, then the object must expose a data buffer
+that will be decoded using the given encoding and error handler.
+Otherwise, returns the result of object.__str__() (if defined)
+or repr(object).
+encoding defaults to sys.getdefaultencoding().
+errors defaults to 'strict'."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c2","","","","test_s4",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c2","","","","test_s5",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_order","","","","test_01",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","test_Ddt01","TestDdt","","","test_Interface02_1__2_","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c","","","","test_s2",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_class","","","","test_w_two",""
+"failed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","test_order","","","","test_02",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","test_Ddt01","TestDdt","","","testInterface03_1__1__2_","Built-in immutable sequence.
+
+If no argument is given, the constructor returns an empty tuple.
+If iterable is specified the tuple is initialized from iterable's items.
+
+If the argument is a tuple, the return value is the same object."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_order_depandency","test_Dep","","","test_02",""
+"passed","Thu Feb 28 16:26:37 CST 2019","Thu Feb 28 16:26:38 CST 2019","825","","test_Ddtforjson","TestDdtForJson","","","test_Interface06_1_data","test_Interface06_1_data"
+"passed","Thu Feb 28 16:26:39 CST 2019","Thu Feb 28 16:26:39 CST 2019","0","","test_web_1","","","","test_s9",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fix_param1","","","","test_one[1]",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_class","TestClass","","","test_two",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture","","","","test_s1",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_param_except","","","","test_eval[2+5-7]",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_class","TestClass","","","test_one",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture","","","","test_s2",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface04_1__2__3_","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_fix_param1","","","","test_one[2]",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture","","","","test_s3",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","1","","test_class","TestClass","","","test_three",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_c","","","","test_s1",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_show_value_2","dict() -> new empty dictionary
+dict(mapping) -> new dictionary initialized from a mapping object's
+    (key, value) pairs
+dict(iterable) -> new dictionary initialized as if via:
+    d = {}
+    for k, v in iterable:
+        d[k] = v
+dict(**kwargs) -> new dictionary initialized with the name=value pairs
+    in the keyword argument list.  For example:  dict(one=1, two=2)"
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_order","","","","test_04",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_param_except","","","","test_eval[3+5-8]",""
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_param","","","","test_one[1]",""
+"failed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","test_Ddt01","TestDdt","","","test_Interface01_1_你好","str(object='') -> str
+str(bytes_or_buffer[, encoding[, errors]]) -> str
+
+Create a new string object from the given object. If encoding or
+errors is specified, then the object must expose a data buffer
+that will be decoded using the given encoding and error handler.
+Otherwise, returns the result of object.__str__() (if defined)
+or repr(object).
+encoding defaults to sys.getdefaultencoding().
+errors defaults to 'strict'."
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","0","","Ddtcsvfile_test","TestForJson2","","","test_get_json_1_____name____morpheus111___job____leader____","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_order_depandency","test_Dep","","","test_03",""
+"passed","Thu Feb 28 16:26:37 CST 2019","Thu Feb 28 16:26:37 CST 2019","834","","test_DdtCsvIF","testDdt_csv_json","","","test_get_json_2_____name____linda111___job____ddd____","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:37 CST 2019","1305","","test_DdtCsvIF","testDdt_csv_json","","","test_get_json_1_____name____morpheus111___job____leader____","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."
+"passed","Thu Feb 28 16:26:38 CST 2019","Thu Feb 28 16:26:38 CST 2019","0","","test_fixture_cy","","","","test_s7",""
+"passed","Thu Feb 28 16:26:35 CST 2019","Thu Feb 28 16:26:35 CST 2019","1","","Ddtcsvfile_test","TestForJson2","","","test_get_json_2_____name____linda111___job____ddd____","Built-in mutable sequence.
+
+If no argument is given, the constructor creates a new empty list.
+The argument must be an iterable if specified."

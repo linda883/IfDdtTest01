@@ -1,0 +1,113 @@
+{
+  "uid" : "34fd87def37e7c9c",
+  "name" : "test_Interface02_1__2_",
+  "fullName" : "test_Ddt01.TestDdt#test_Interface02_1__2_",
+  "historyId" : "92a2905d3959e464f4aafd194ea16f4b",
+  "time" : {
+    "start" : 1551342395669,
+    "stop" : 1551342395670,
+    "duration" : 1
+  },
+  "description" : "Built-in mutable sequence.\n\nIf no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.",
+  "descriptionHtml" : "<p>Built-in mutable sequence.</p>\n<p>If no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342395585,
+      "stop" : 1551342395585,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Built-in mutable sequence.\n\nIf no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "441191f28e76a31",
+      "name" : "log",
+      "source" : "441191f28e76a31.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3c96550b01c27de0",
+      "name" : "stdout",
+      "source" : "3c96550b01c27de0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "bb4661cf1043093a",
+      "name" : "stderr",
+      "source" : "bb4661cf1043093a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342395755,
+      "stop" : 1551342395755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDdt"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34fd87def37e7c9c.json",
+  "parameterValues" : [ ]
+}

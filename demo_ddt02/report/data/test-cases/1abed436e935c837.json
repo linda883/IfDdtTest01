@@ -1,0 +1,88 @@
+{
+  "uid" : "1abed436e935c837",
+  "name" : "test_02",
+  "fullName" : "test_order#test_02",
+  "historyId" : "077cdda3ea6949dec56d3e7fe9dc3598",
+  "time" : {
+    "start" : 1551342395413,
+    "stop" : 1551342395414,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 1\n  -4\n  +1",
+  "statusTrace" : "@pytest.mark.first\n    def test_02():\n        print('test02')\n>       assert(4==1)\nE       assert 4 == 1\nE         -4\nE         +1\n\ntest_order.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 1\n  -4\n  +1",
+    "statusTrace" : "@pytest.mark.first\n    def test_02():\n        print('test02')\n>       assert(4==1)\nE       assert 4 == 1\nE         -4\nE         +1\n\ntest_order.py:11: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db2a37eb073b36d7",
+      "name" : "log",
+      "source" : "db2a37eb073b36d7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "29987b5c2cc1bc45",
+      "name" : "stdout",
+      "source" : "29987b5c2cc1bc45.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f74068ca29c3915d",
+      "name" : "stderr",
+      "source" : "f74068ca29c3915d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "first"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "first" ]
+  },
+  "source" : "1abed436e935c837.json",
+  "parameterValues" : [ ]
+}

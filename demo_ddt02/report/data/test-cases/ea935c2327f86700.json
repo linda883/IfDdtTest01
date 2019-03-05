@@ -1,0 +1,107 @@
+{
+  "uid" : "ea935c2327f86700",
+  "name" : "test_s8",
+  "fullName" : "test_web_1#test_s8",
+  "historyId" : "25d5e1d0f34aee098517aadb3d00d1e9",
+  "time" : {
+    "start" : 1551342398997,
+    "stop" : 1551342398997,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open",
+    "time" : {
+      "start" : 1551342398995,
+      "stop" : 1551342398995,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8100f7f3e7607df",
+      "name" : "log",
+      "source" : "f8100f7f3e7607df.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "463bacae8a24cb3e",
+      "name" : "stdout",
+      "source" : "463bacae8a24cb3e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "898269c0070a5989",
+      "name" : "stderr",
+      "source" : "898269c0070a5989.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open::0",
+    "time" : {
+      "start" : 1551342399006,
+      "stop" : 1551342399006,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_web_1"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_web_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea935c2327f86700.json",
+  "parameterValues" : [ ]
+}

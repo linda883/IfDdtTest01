@@ -1,0 +1,77 @@
+{
+  "uid" : "1494b726c58eb6bd",
+  "name" : "test_01",
+  "fullName" : "test_order#test_01",
+  "historyId" : "9e640120a75b82fe349c97d3e7025b51",
+  "time" : {
+    "start" : 1551342398903,
+    "stop" : 1551342398903,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edcb497b5ac519bd",
+      "name" : "log",
+      "source" : "edcb497b5ac519bd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4d0ea9ed1a4b65b",
+      "name" : "stdout",
+      "source" : "4d0ea9ed1a4b65b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "223186cbf4afb167",
+      "name" : "stderr",
+      "source" : "223186cbf4afb167.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1494b726c58eb6bd.json",
+  "parameterValues" : [ ]
+}

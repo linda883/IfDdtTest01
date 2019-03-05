@@ -1,0 +1,113 @@
+{
+  "uid" : "bb95064933963946",
+  "name" : "test_get_json_2_____name____linda111___job____ddd____",
+  "fullName" : "test_DdtCsvIF.testDdt_csv_json#test_get_json_2_____name____linda111___job____ddd____",
+  "historyId" : "ec8a8667df9defd980a8e9a0d1eef2b8",
+  "time" : {
+    "start" : 1551342397076,
+    "stop" : 1551342397910,
+    "duration" : 834
+  },
+  "description" : "Built-in mutable sequence.\n\nIf no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.",
+  "descriptionHtml" : "<p>Built-in mutable sequence.</p>\n<p>If no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342395765,
+      "stop" : 1551342395765,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Built-in mutable sequence.\n\nIf no argument is given, the constructor creates a new empty list.\nThe argument must be an iterable if specified.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ff240a7b14d15a5",
+      "name" : "log",
+      "source" : "9ff240a7b14d15a5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f05ded7351a69d3c",
+      "name" : "stdout",
+      "source" : "f05ded7351a69d3c.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "24a220662b7134cf",
+      "name" : "stderr",
+      "source" : "24a220662b7134cf.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342397911,
+      "stop" : 1551342397911,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_DdtCsvIF"
+  }, {
+    "name" : "subSuite",
+    "value" : "testDdt_csv_json"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DdtCsvIF"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb95064933963946.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "52ef56849f5cbf09",
+  "name" : "test_s9",
+  "fullName" : "test_fixture_cy#test_s9",
+  "historyId" : "023a44910d7e9ce47dcfc389f3b000f0",
+  "time" : {
+    "start" : 1551342398886,
+    "stop" : 1551342398886,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open",
+    "time" : {
+      "start" : 1551342398875,
+      "stop" : 1551342398875,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d3f7d14a5eff56a5",
+      "name" : "log",
+      "source" : "d3f7d14a5eff56a5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f3c34d452d557b93",
+      "name" : "stdout",
+      "source" : "f3c34d452d557b93.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "eb6b2ab712e90771",
+      "name" : "stderr",
+      "source" : "eb6b2ab712e90771.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "open::0",
+    "time" : {
+      "start" : 1551342398887,
+      "stop" : 1551342398888,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_cy"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_cy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52ef56849f5cbf09.json",
+  "parameterValues" : [ ]
+}

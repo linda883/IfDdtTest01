@@ -1,0 +1,92 @@
+{
+  "uid" : "281cc306afc668af",
+  "name" : "test_s4",
+  "fullName" : "test_fixture_c2#test_s4",
+  "historyId" : "ccd7871a5c2daad1d347f249b26c0c6a",
+  "time" : {
+    "start" : 1551342398860,
+    "stop" : 1551342398860,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1551342398860,
+      "stop" : 1551342398860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62f0906bd3ad448",
+      "name" : "log",
+      "source" : "62f0906bd3ad448.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c7055921168cc700",
+      "name" : "stdout",
+      "source" : "c7055921168cc700.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5def215369f0789a",
+      "name" : "stderr",
+      "source" : "5def215369f0789a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_c2"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_c2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "281cc306afc668af.json",
+  "parameterValues" : [ ]
+}

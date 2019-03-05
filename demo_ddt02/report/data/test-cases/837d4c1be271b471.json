@@ -1,0 +1,92 @@
+{
+  "uid" : "837d4c1be271b471",
+  "name" : "test_s1",
+  "fullName" : "test_fixture_c#test_s1",
+  "historyId" : "c6faf0d9cb5a117e62977d6f06bfa831",
+  "time" : {
+    "start" : 1551342398846,
+    "stop" : 1551342398846,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1551342398845,
+      "stop" : 1551342398845,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d220b02b45c4412e",
+      "name" : "log",
+      "source" : "d220b02b45c4412e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "62c3f5304373c9a",
+      "name" : "stdout",
+      "source" : "62c3f5304373c9a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "333cffdff3e9554d",
+      "name" : "stderr",
+      "source" : "333cffdff3e9554d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture_c"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture_c"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "837d4c1be271b471.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,121 @@
+{
+  "uid" : "eec18f29d84eaa38",
+  "name" : "test_Interface01_1_你好",
+  "fullName" : "test_Ddt01.TestDdt#test_Interface01_1_你好",
+  "historyId" : "c484d4ecdf17b0fd67dcd858d2b1a770",
+  "time" : {
+    "start" : 1551342395605,
+    "stop" : 1551342395605,
+    "duration" : 0
+  },
+  "description" : "str(object='') -> str\nstr(bytes_or_buffer[, encoding[, errors]]) -> str\n\nCreate a new string object from the given object. If encoding or\nerrors is specified, then the object must expose a data buffer\nthat will be decoded using the given encoding and error handler.\nOtherwise, returns the result of object.__str__() (if defined)\nor repr(object).\nencoding defaults to sys.getdefaultencoding().\nerrors defaults to 'strict'.",
+  "descriptionHtml" : "<p>str(object='') -&gt; str\nstr(bytes_or_buffer[, encoding[, errors]]) -&gt; str</p>\n<p>Create a new string object from the given object. If encoding or\nerrors is specified, then the object must expose a data buffer\nthat will be decoded using the given encoding and error handler.\nOtherwise, returns the result of object.<strong>str</strong>() (if defined)\nor repr(object).\nencoding defaults to sys.getdefaultencoding().\nerrors defaults to 'strict'.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: '你' != '你好'\n- 你\n+ 你好\n?  +",
+  "statusTrace" : "self = <demo_ddt02.test_Ddt01.TestDdt testMethod=test_Interface01_1_你好>\nvalue1 = '你好'\n\n    @data('你好','你','我')\n    \n    def test_Interface01(self,value1):\n        '''\n        这里写接口请求\n        '''\n        print(value1)\n>       self.assertEqual('你',value1)\nE       AssertionError: '你' != '你好'\nE       - 你\nE       + 你好\nE       ?  +\n\ntest_Ddt01.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342395585,
+      "stop" : 1551342395585,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "str(object='') -> str\nstr(bytes_or_buffer[, encoding[, errors]]) -> str\n\nCreate a new string object from the given object. If encoding or\nerrors is specified, then the object must expose a data buffer\nthat will be decoded using the given encoding and error handler.\nOtherwise, returns the result of object.__str__() (if defined)\nor repr(object).\nencoding defaults to sys.getdefaultencoding().\nerrors defaults to 'strict'.",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: '你' != '你好'\n- 你\n+ 你好\n?  +",
+    "statusTrace" : "self = <demo_ddt02.test_Ddt01.TestDdt testMethod=test_Interface01_1_你好>\nvalue1 = '你好'\n\n    @data('你好','你','我')\n    \n    def test_Interface01(self,value1):\n        '''\n        这里写接口请求\n        '''\n        print(value1)\n>       self.assertEqual('你',value1)\nE       AssertionError: '你' != '你好'\nE       - 你\nE       + 你好\nE       ?  +\n\ntest_Ddt01.py:22: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "794da5abb200d403",
+      "name" : "log",
+      "source" : "794da5abb200d403.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d614e65ee0489d13",
+      "name" : "stdout",
+      "source" : "d614e65ee0489d13.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "dc8c9a6500afc6ac",
+      "name" : "stderr",
+      "source" : "dc8c9a6500afc6ac.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342395755,
+      "stop" : 1551342395755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDdt"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eec18f29d84eaa38.json",
+  "parameterValues" : [ ]
+}

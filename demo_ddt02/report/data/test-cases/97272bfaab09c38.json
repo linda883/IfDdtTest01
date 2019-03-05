@@ -1,0 +1,113 @@
+{
+  "uid" : "97272bfaab09c38",
+  "name" : "testInterface03_2__2__3_",
+  "fullName" : "test_Ddt01.TestDdt#testInterface03_2__2__3_",
+  "historyId" : "dab21d446c603bfd691b7e853c777994",
+  "time" : {
+    "start" : 1551342395597,
+    "stop" : 1551342395597,
+    "duration" : 0
+  },
+  "description" : "Built-in immutable sequence.\n\nIf no argument is given, the constructor returns an empty tuple.\nIf iterable is specified the tuple is initialized from iterable's items.\n\nIf the argument is a tuple, the return value is the same object.",
+  "descriptionHtml" : "<p>Built-in immutable sequence.</p>\n<p>If no argument is given, the constructor returns an empty tuple.\nIf iterable is specified the tuple is initialized from iterable's items.</p>\n<p>If the argument is a tuple, the return value is the same object.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1551342395585,
+      "stop" : 1551342395585,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Built-in immutable sequence.\n\nIf no argument is given, the constructor returns an empty tuple.\nIf iterable is specified the tuple is initialized from iterable's items.\n\nIf the argument is a tuple, the return value is the same object.",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61a4157f20fa8c53",
+      "name" : "log",
+      "source" : "61a4157f20fa8c53.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f99dbf575ccf6d81",
+      "name" : "stdout",
+      "source" : "f99dbf575ccf6d81.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "cb961eb0c64c1efa",
+      "name" : "stderr",
+      "source" : "cb961eb0c64c1efa.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1551342395755,
+      "stop" : 1551342395755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDdt"
+  }, {
+    "name" : "host",
+    "value" : "lizdeMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_Ddt01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97272bfaab09c38.json",
+  "parameterValues" : [ ]
+}
